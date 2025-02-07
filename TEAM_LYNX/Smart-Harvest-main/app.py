@@ -10,7 +10,7 @@ import requests
 warnings.filterwarnings('ignore')
 
 from fertilizer import fertilizer_dic
-
+#jj
 with open('Model.pkl', 'rb') as f:
     model = pickle.load(f)
 with open('labels.pkl', 'rb') as f:
